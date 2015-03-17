@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".SplashActivity" >
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/background" />
+	<ImageButton
+		android:id="@+id/twitter_button"
+		android:src="@drawable/twitter_icon"
+		android:background="@drawable/custombutton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignTop="@+id/youtube_button" 
+		android:layout_marginTop="30dp"
+		android:layout_centerHorizontal="true" />
+	<ImageButton
+		android:id="@+id/youtube_button"
+		android:src="@drawable/youtube_icon"
+		android:background="@drawable/custombutton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="10dp"
+		android:layout_alignTop="@+id/facebook_button"
+		android:layout_alignParentRight="true" />
+	<ImageButton
+		android:id="@+id/facebook_button"
+		android:src="@drawable/facebook_icon"
+		android:background="@drawable/custombutton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:layout_centerVertical="true"
+		android:layout_alignParentLeft="true" />
+
+	<ImageButton
+	    android:id="@+id/clothing_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+		android:layout_marginRight="10dp"
+	    android:layout_alignTop="@+id/website_button"
+	    android:src="@drawable/clothing_icon"
+	    android:background="@drawable/custombutton" />
+
+	<ImageView
+	    android:id="@+id/widget43"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+		android:layout_margin="10dp"
+	    android:layout_centerHorizontal="true"
+	    android:padding="10dp"
+	    android:src="@drawable/logo" />
+
+	<ImageButton
+	    android:id="@+id/website_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/facebook_button"
+	    android:src="@drawable/website_icon"
+	    android:background="@drawable/custombutton" />
+
+</RelativeLayout>
